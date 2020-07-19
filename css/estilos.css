@@ -6,16 +6,24 @@ body
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background: #1e1f24;
 }
 
 #cabecera
 {
-    background: #33A;
+    background: url("../images/STR_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 2em 1em 2em 1em;  
     box-shadow: 2px 1px 45px 1px rgba(5, 1, 24, 0.74);
+    font-size: 30px; 
+    text-shadow:    -1px 1px 0 #000, 
+                    1px 1px 0 #000, 
+                    1px -1px 0 #000, 
+                    -1px -1px 0 #000; 
 }
 
 #cabecera #tagline
@@ -42,5 +50,6 @@ body
 
 #post
 {
+    background: rgb(229, 241, 229);
     padding: 1em;
 }
